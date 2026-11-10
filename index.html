@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f6f0e9">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle cx='20' cy='20' r='19' fill='%23697c6a'/%3E%3Ctext x='20' y='28' text-anchor='middle' font-size='25' fill='white' font-family='Georgia'%3Eن%3C/text%3E%3C/svg%3E">
+<title>Noor — Modest Fashion Studio</title>
+<style>
+:root{--ink:#252d32;--muted:#7d8584;--paper:#fbf8f2;--cream:#f4eee6;--line:#e9e2d9;--sage:#bbc6b2;--rose:#e5bcb1;--shadow:0 18px 50px #423b3012;--accent:#687866}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:ui-rounded,"Avenir Next",Avenir,"Segoe UI",sans-serif;min-height:100vh}button{font:inherit;color:inherit}button:focus-visible{outline:3px solid #aebda7;outline-offset:3px}.app{max-width:1240px;margin:auto;padding:0 34px 32px}.topbar{height:82px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:11px;font-size:13px;font-weight:800;letter-spacing:.2em}.brand-mark{width:34px;height:34px;border-radius:50%;background:#697c6a;color:#fff;display:grid;place-items:center;font-family:Georgia,serif;font-size:21px;font-weight:400;letter-spacing:0}.brand small{display:block;color:#9b9b8e;font-size:9px;letter-spacing:.19em;font-weight:700;margin-top:3px}.top-actions{display:flex;align-items:center;gap:10px}.icon-btn{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:#fff;display:grid;place-items:center;cursor:pointer;transition:.2s}.icon-btn:hover{transform:translateY(-2px);background:#f2f4ef}.save-btn{border:0;border-radius:30px;background:var(--ink);color:#fff;padding:12px 20px;font-size:12px;font-weight:700;letter-spacing:.04em;cursor:pointer;transition:.2s}.save-btn:hover{background:#526852;transform:translateY(-1px)}.intro{padding:27px 0 21px;display:flex;align-items:end;justify-content:space-between}.eyebrow{font-size:10px;text-transform:uppercase;letter-spacing:.2em;color:#849080;font-weight:800;margin:0 0 8px}.intro h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(29px,4vw,43px);line-height:1;margin:0;font-weight:400;letter-spacing:-.03em}.intro p{font-size:13px;color:var(--muted);margin:10px 0 0}.look-counter{font-size:11px;color:#8c8f87;background:#fff;border:1px solid var(--line);padding:9px 13px;border-radius:30px;white-space:nowrap}.layout{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(390px,.92fr);gap:22px;align-items:stretch}.stage{position:relative;min-height:580px;border-radius:20px;overflow:hidden;background:#eaece3;box-shadow:var(--shadow);isolation:isolate}.stage:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 37%,#f8f7ef 0,#e9ede3 58%,#dde3d8 100%);z-index:-2}.stage:after{content:"";position:absolute;width:480px;height:480px;border:1px solid #fff9;border-radius:50%;left:50%;top:47%;transform:translate(-50%,-50%);z-index:-1}.sun-disc{position:absolute;width:195px;height:195px;border-radius:50%;background:#f6e5ca;top:44px;left:50%;transform:translateX(-50%);opacity:.74}.stage-label{position:absolute;top:20px;left:22px;z-index:3;color:#798276;font-size:9px;font-weight:800;letter-spacing:.2em}.stage-hint{position:absolute;bottom:17px;left:50%;transform:translateX(-50%);white-space:nowrap;background:#fff9;border:1px solid #fff9;border-radius:30px;padding:8px 13px;font-size:10px;color:#6d766b;z-index:4}.sparkle{position:absolute;color:#fff;font-size:20px;z-index:2}.sparkle.one{top:26%;left:14%}.sparkle.two{top:38%;right:12%;font-size:14px}.sparkle.three{bottom:26%;left:20%;font-size:13px}.doll-wrap{position:absolute;inset:46px 0 30px;display:flex;justify-content:center;align-items:flex-end}.doll{height:min(100%,550px);width:auto;max-width:100%;overflow:visible;filter:drop-shadow(0 10px 6px #56635416)}.look-panel{border:1px solid var(--line);background:#fff;border-radius:20px;box-shadow:var(--shadow);padding:23px 24px 18px;display:flex;flex-direction:column;min-height:580px}.panel-head{display:flex;align-items:start;justify-content:space-between}.panel-title{font-family:Georgia,serif;font-size:23px;margin:0;font-weight:400}.panel-subtitle{font-size:11px;color:#92958c;margin:5px 0 0}.random-btn{border:1px solid var(--line);background:#faf9f6;border-radius:30px;padding:9px 12px;font-size:10px;font-weight:700;cursor:pointer}.random-btn:hover{background:#eef1e9}.category-tabs{display:grid;grid-template-columns:repeat(5,1fr);gap:5px;margin:21px 0 16px}.category-tab{background:transparent;border:0;border-radius:10px;padding:9px 3px 8px;color:#92968e;font-size:9px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:5px;transition:.18s}.category-tab span:first-child{font-size:17px;line-height:1}.category-tab.active{background:#eff2ec;color:#4e654e;font-weight:800}.category-tab:hover:not(.active){background:#faf8f4}.section-label{font-size:9px;text-transform:uppercase;letter-spacing:.17em;font-weight:800;color:#8e938a;display:flex;justify-content:space-between;margin:0 0 10px}.item-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.item-card{position:relative;border:1px solid #eeeae4;background:#fcfbf8;border-radius:12px;padding:10px 7px 9px;min-height:88px;cursor:pointer;text-align:center;transition:.18s}.item-card:hover{transform:translateY(-2px);border-color:#c8d1c2}.item-card.selected{border:1.5px solid #899985;background:#f4f6f1;box-shadow:0 2px 8px #82917c12}.item-art{width:38px;height:39px;margin:0 auto 5px;display:grid;place-items:center}.item-art svg{width:34px;height:34px}.item-name{font-size:9px;color:#737b72;line-height:1.15}.item-card.selected .item-name{color:#4b614d;font-weight:800}.check{position:absolute;top:5px;right:5px;width:13px;height:13px;border-radius:50%;background:#657c65;color:white;font-size:8px;display:none;place-items:center}.item-card.selected .check{display:grid}.divider{height:1px;background:#f0ede8;margin:16px 0 13px}.colors-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}.selected-color-name{font-size:10px;color:#899087}.swatches{display:flex;align-items:center;gap:11px;flex-wrap:wrap}.swatch{width:26px;height:26px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px #e6e2db;cursor:pointer;transition:.15s;position:relative}.swatch:hover{transform:scale(1.12)}.swatch.active{box-shadow:0 0 0 2px #667b66;transform:scale(1.08)}.swatch[data-pattern="gold"]:after{content:"✦";font-size:10px;color:#775f36}.bottom-row{margin-top:auto;padding-top:16px;display:flex;align-items:center;justify-content:space-between}.outfit-name{font-family:Georgia,serif;font-size:14px;color:#626e60}.reset-btn{border:0;background:none;color:#999b95;font-size:10px;text-decoration:underline;text-underline-offset:3px;cursor:pointer}.toast{position:fixed;left:50%;bottom:22px;transform:translate(-50%,20px);background:#26332c;color:white;border-radius:30px;padding:12px 18px;font-size:12px;opacity:0;pointer-events:none;transition:.25s;z-index:20;box-shadow:0 8px 24px #0002}.toast.show{opacity:1;transform:translate(-50%,0)}.lookbook-modal{position:fixed;inset:0;background:#252d32a6;display:none;place-items:center;padding:20px;z-index:10}.lookbook-modal.open{display:grid}.modal-card{width:min(440px,100%);background:var(--paper);border-radius:18px;padding:24px;box-shadow:0 20px 70px #0003}.modal-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:15px}.modal-head h2{font-family:Georgia,serif;font-weight:400;margin:0}.close-btn{border:0;background:none;font-size:23px;cursor:pointer}.saved-list{display:grid;gap:9px;max-height:55vh;overflow:auto}.saved-look{border:1px solid var(--line);border-radius:12px;padding:12px;display:flex;justify-content:space-between;align-items:center;background:white}.saved-look strong{font-family:Georgia,serif;font-weight:400}.saved-look small{display:block;color:#8b9087;font-size:10px;margin-top:4px}.saved-look button{border:0;background:#eff2ec;color:#536650;padding:7px 10px;border-radius:9px;font-size:10px;cursor:pointer}.empty-note{text-align:center;color:#8b9087;padding:22px;font-size:12px}
+@media(max-width:850px){.app{padding:0 20px 24px}.layout{grid-template-columns:minmax(0,.95fr) minmax(350px,1.05fr);gap:14px}.stage,.look-panel{min-height:550px}.look-panel{padding:19px 17px 15px}.doll-wrap{inset:50px 0 30px}.stage:after{width:390px;height:390px}}
+@media(max-width:650px){.app{padding:0 13px calc(17px + env(safe-area-inset-bottom))}.topbar{height:65px}.brand{font-size:11px}.brand-mark{width:30px;height:30px}.icon-btn{width:36px;height:36px}.save-btn{padding:10px 14px;font-size:11px}.intro{padding:22px 2px 17px}.intro h1{font-size:32px}.intro p{font-size:11px;max-width:240px;line-height:1.45}.look-counter{font-size:9px;padding:8px 9px}.layout{display:flex;flex-direction:column;gap:12px}.stage{min-height:0;height:min(60vh,470px);height:min(57svh,470px);border-radius:16px}.stage:after{width:min(85vw,360px);height:min(85vw,360px)}.sun-disc{width:142px;height:142px;top:28px}.doll-wrap{inset:32px 0 19px}.doll{height:100%;max-height:430px}.stage-label{top:14px;left:15px;font-size:8px}.stage-hint{bottom:11px;font-size:9px;padding:7px 11px}.sparkle.one{left:10%;top:25%}.look-panel{min-height:0;border-radius:16px;padding:17px 16px 12px}.panel-title{font-size:21px}.panel-subtitle{font-size:10px}.random-btn{padding:8px 10px}.category-tabs{margin:14px 0 12px}.category-tab{padding:7px 2px;font-size:8px}.category-tab span:first-child{font-size:15px}.item-grid{gap:7px}.item-card{min-height:76px;padding:7px 5px}.item-art{height:32px;margin-bottom:3px}.item-art svg{width:30px;height:30px}.item-name{font-size:8px}.divider{margin:12px 0 10px}.swatch{width:24px;height:24px}.swatches{gap:10px}.bottom-row{padding-top:12px}.toast{bottom:calc(18px + env(safe-area-inset-bottom))}}
+@media(max-width:370px){.intro h1{font-size:28px}.stage{height:52svh}.look-panel{padding:14px 12px}.category-tab{font-size:7px}.item-card{min-height:70px}.item-name{font-size:7.5px}}
+</style>
+</head>
+<body>
+<div class="app">
+<header class="topbar">
+  <div class="brand"><div class="brand-mark">ن</div><div>NOOR<small>MODEST FASHION STUDIO</small></div></div>
+  <div class="top-actions">
+    <button class="icon-btn" id="lookbookBtn" aria-label="Open saved looks" title="Saved looks"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 4.5A2.5 2.5 0 0 1 7.5 2H20v17H7.5A2.5 2.5 0 0 0 5 21.5z"/><path d="M5 4.5v17M9 6h7M9 10h7"/></svg></button>
+    <button class="save-btn" id="saveBtn">Save look <span aria-hidden="true">♡</span></button>
+  </div>
+</header>
+<section class="intro"><div><p class="eyebrow">A little style, a lot of heart</p><h1>Your modest style studio</h1><p>Mix, match, and make a look that feels like you.</p></div><div class="look-counter" id="lookCounter">LOOK 01&nbsp; · &nbsp;UNTITLED</div></section>
+<main class="layout">
+<section class="stage" aria-label="Fashion doll preview">
+  <div class="sun-disc"></div><div class="stage-label">YOUR CANVAS &nbsp;·&nbsp; NOOR</div><span class="sparkle one">✧</span><span class="sparkle two">✦</span><span class="sparkle three">✧</span>
+  <div class="doll-wrap"><svg id="doll" class="doll" viewBox="0 0 360 560" role="img" aria-label="Illustration of your modest fashion look"></svg></div>
+  <div class="stage-hint">✦ &nbsp; Style her your way &nbsp; ✦</div>
+</section>
+<section class="look-panel">
+  <div class="panel-head"><div><h2 class="panel-title">The wardrobe</h2><p class="panel-subtitle">Choose a piece, then find your color.</p></div><button class="random-btn" id="randomBtn">✧ &nbsp; Surprise me</button></div>
+  <div class="category-tabs" id="categoryTabs" role="tablist" aria-label="Clothing categories"></div>
+  <p class="section-label"><span id="sectionName">Abayas</span><span id="itemCount">6 styles</span></p>
+  <div class="item-grid" id="itemGrid"></div>
+  <div class="divider"></div>
+  <div class="colors-head"><p class="section-label" style="margin:0">Color palette</p><span class="selected-color-name" id="colorName">Sage</span></div>
+  <div class="swatches" id="swatches" role="group" aria-label="Choose color"></div>
+  <div class="bottom-row"><span class="outfit-name" id="outfitName">A quiet moment</span><button class="reset-btn" id="resetBtn">Start fresh ↺</button></div>
+</section>
+</main>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="lookbook-modal" id="lookbookModal" role="dialog" aria-modal="true" aria-labelledby="lookbookTitle"><div class="modal-card"><div class="modal-head"><h2 id="lookbookTitle">Your lookbook</h2><button class="close-btn" id="closeModal" aria-label="Close">×</button></div><div class="saved-list" id="savedList"></div></div></div>
+<script>
+const categories=[
+ {id:'abaya',label:'Abayas',icon:'✧',items:[['Everyday Flow',0],['Desert Bloom',1],['Moonlight',2],['Petal Sleeve',3],['City Grace',4],['Golden Hour',5]]},
+ {id:'hijab',label:'Hijabs',icon:'◒',items:[['Classic Wrap',0],['Soft Drape',1],['Crossfold',2],['Side Knot',3],['Jersey Ease',4],['Pearl Pin',5]]},
+ {id:'khimar',label:'Khimars',icon:'⌁',items:[['Short & Sweet',0],['Butterfly',1],['Longline',2],['Layered Grace',3],['Luna Cape',4],['Garden Veil',5]]},
+ {id:'cap',label:'Headcaps',icon:'◡',items:[['Cotton Bonnet',0],['Lace Edge',1],['Everyday Cap',2],['Soft Rib',3],['Petal Cap',4],['Satin Band',5]]},
+ {id:'niqab',label:'Niqabs',icon:'◌',items:[['Classic Veil',0],['Soft Tie',1],['Two Layer',2],['Everyday',3],['Desert Rose',4],['Moon Veil',5]]}
+];
+const colors=[
+ {name:'Sage',hex:'#87977d',light:'#b4c0a9',dark:'#586a58',ink:'#445344'},
+ {name:'Rose',hex:'#bd817e',light:'#e6bcb5',dark:'#885d62',ink:'#70474c'},
+ {name:'Midnight',hex:'#34404d',light:'#677384',dark:'#202a35',ink:'#e3e1dc'},
+ {name:'Oat',hex:'#c6ad8e',light:'#e1cfb5',dark:'#9c8062',ink:'#705b48'},
+ {name:'Plum',hex:'#806b83',light:'#b7a3b8',dark:'#5b4a62',ink:'#f1e7ee'},
+ {name:'Olive',hex:'#777451',light:'#aaa780',dark:'#55553b',ink:'#f3eed9'},
+ {name:'Cloud',hex:'#d9d8d0',light:'#f1eee6',dark:'#aaa99f',ink:'#75756f'},
+ {name:'Terracotta',hex:'#b66f51',light:'#d99d7f',dark:'#874d3b',ink:'#fff0df'}
+];
+const defaultState={abaya:0,hijab:0,khimar:-1,cap:-1,niqab:-1,colors:{abaya:0,hijab:0,khimar:0,cap:0,niqab:0}};
+let state=structuredClone(defaultState),activeCategory='abaya',toastTimer;
+const svgNS='http://www.w3.org/2000/svg';
+function el(tag,attrs={},text=''){const e=document.createElementNS(svgNS,tag);for(const [k,v] of Object.entries(attrs))e.setAttribute(k,v);if(text)e.textContent=text;return e}
+function path(d,fill,attrs={}){return el('path',{d,fill,...attrs})}
+function colorFor(id){return colors[state.colors[id]||0]}
+function shade(c,kind){return kind==='light'?c.light:kind==='dark'?c.dark:c.hex}
+function renderDoll(){
+ const svg=document.getElementById('doll');svg.replaceChildren();
+ const defs=el('defs');defs.innerHTML='<linearGradient id="skin" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#e8b99c"/><stop offset="1" stop-color="#cc947b"/></linearGradient><linearGradient id="cloth" x1="0" x2=".8" y1="0" y2="1"><stop stop-color="var(--cloth-light)"/><stop offset=".52" stop-color="var(--cloth)"/><stop offset="1" stop-color="var(--cloth-dark)"/></linearGradient><linearGradient id="veil" x1="0" x2="1" y1="0" y2="1"><stop stop-color="var(--veil-light)"/><stop offset="1" stop-color="var(--veil)"/></linearGradient><pattern id="fabricDots" width="13" height="13" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".8" fill="#fff" opacity=".23"/><circle cx="9" cy="8" r=".55" fill="#fff" opacity=".15"/></pattern>';
+ svg.append(defs);
+ let ab=colorFor('abaya'), hij=colorFor('hijab'), khi=colorFor('khimar'), cap=colorFor('cap'), ni=colorFor('niqab');
+ svg.style.setProperty('--cloth',ab.hex);svg.style.setProperty('--cloth-light',ab.light);svg.style.setProperty('--cloth-dark',ab.dark);svg.style.setProperty('--veil',hij.hex);svg.style.setProperty('--veil-light',hij.light);
+ const g=el('g');svg.append(g);
+ // soft ground shadow
+ g.append(el('ellipse',{cx:180,cy:534,rx:75,ry:9,fill:'#72806a',opacity:'.16'}));
+ // legs and shoes
+ g.append(path('M144 458 Q145 493 139 520 Q136 529 126 530 Q119 531 121 537 L158 537 Q164 535 159 528 L163 477 L198 477 L201 526 Q194 532 199 537 L236 537 Q241 533 232 529 L220 518 L216 459Z','#c88f78'));
+ g.append(path('M121 528 Q139 532 160 528 L163 538 Q161 545 124 544 Q116 541 121 528Z','#6e5960'));
+ g.append(path('M199 529 Q218 530 234 527 L241 538 Q239 545 202 544 Q194 542 199 529Z','#6e5960'));
+ // arms behind garment
+ g.append(path('M127 224 Q107 234 101 279 L88 359 Q87 372 97 374 Q106 375 109 360 L127 301 L147 267Z','url(#skin)'));
+ g.append(path('M232 224 Q253 235 260 278 L272 359 Q273 372 263 374 Q254 374 251 360 L232 301 L213 267Z','url(#skin)'));
+ // neck, face base
+ g.append(path('M160 177 L158 211 Q180 230 202 211 L199 175Z','url(#skin)'));
+ g.append(el('ellipse',{cx:180,cy:126,rx:51,ry:62,fill:'url(#skin)'}));
+ // face features
+ g.append(path('M157 128 Q164 124 170 128','none',{stroke:'#54443d','stroke-width':2,'stroke-linecap':'round'}));g.append(path('M190 128 Q197 124 203 128','none',{stroke:'#54443d','stroke-width':2,'stroke-linecap':'round'}));
+ g.append(el('circle',{cx:164,cy:129,r:1.8,fill:'#403b36'}));g.append(el('circle',{cx:197,cy:129,r:1.8,fill:'#403b36'}));
+ g.append(path('M180 133 Q176 145 181 146','none',{stroke:'#b47c68','stroke-width':1.5,'stroke-linecap':'round'}));
+ g.append(path('M172 156 Q180 161 188 155','none',{stroke:'#a96665','stroke-width':1.8,'stroke-linecap':'round'}));
+ g.append(el('ellipse',{cx:148,cy:147,rx:8,ry:4,fill:'#d8897d',opacity:'.3'}));g.append(el('ellipse',{cx:211,cy:147,rx:8,ry:4,fill:'#d8897d',opacity:'.3'}));
+ // ears
+ g.append(el('ellipse',{cx:130,cy:134,rx:7,ry:11,fill:'#d9a389'}));g.append(el('ellipse',{cx:230,cy:134,rx:7,ry:11,fill:'#d9a389'}));
+ // hijab underlayer / cap
+ if(state.cap>=0){const c=cap;g.append(path('M133 132 Q128 77 179 69 Q231 76 227 132 L214 134 Q218 91 180 89 Q143 92 146 135Z',c.hex,{stroke:c.dark,'stroke-width':1.5}));g.append(path('M140 112 Q180 94 220 112','none',{stroke:c.light,'stroke-width':3,opacity:'.9'}));}
+ // Abaya variants
+ const styles=[
+ 'M137 211 Q154 219 180 220 Q206 219 223 211 L246 245 Q235 270 231 314 L244 492 Q214 509 180 508 Q146 509 116 492 L129 313 Q125 271 114 245Z',
+ 'M139 211 Q156 224 180 221 Q204 224 221 211 L249 246 Q234 264 238 321 L254 490 Q216 510 180 508 Q144 510 106 490 L122 321 Q126 264 111 246Z',
+ 'M137 210 Q158 226 180 223 Q202 226 223 210 L251 250 Q239 269 235 320 L248 493 Q213 505 180 508 Q147 505 112 493 L125 320 Q121 269 109 250Z',
+ 'M137 211 Q153 220 180 220 Q207 220 223 211 L244 247 Q236 269 232 311 L253 491 Q215 508 180 509 Q145 508 107 491 L128 311 Q124 269 116 247Z',
+ 'M138 210 Q159 224 180 222 Q201 224 222 210 L247 244 Q236 274 233 316 L244 493 Q213 507 180 509 Q147 507 116 493 L127 316 Q124 274 113 244Z',
+ 'M138 211 Q154 221 180 221 Q206 221 222 211 L250 249 Q234 271 236 319 L248 492 Q213 508 180 509 Q147 508 112 492 L124 319 Q126 271 110 249Z'
+ ];
+ const abaya=path(styles[state.abaya], 'url(#cloth)',{stroke:ab.dark,'stroke-width':1.5,'stroke-linejoin':'round'});g.append(abaya);
+ // sleeve panels and seams
+ g.append(path('M119 247 Q132 253 143 257 L137 289 Q126 282 122 276Z',ab.dark,{opacity:'.54'}));g.append(path('M241 247 Q228 253 217 257 L223 289 Q234 282 238 276Z',ab.dark,{opacity:'.54'}));
+ g.append(path('M180 226 Q177 350 180 499','none',{stroke:ab.light,'stroke-width':1.5,opacity:'.65'}));
+ g.append(path('M125 480 Q180 493 237 480','none',{stroke:ab.light,'stroke-width':1.2,opacity:'.7'}));
+ if(state.abaya===1||state.abaya===3||state.abaya===5){g.append(path('M130 285 Q180 303 230 285','none',{stroke:state.abaya===5?'#d8bd79':ab.light,'stroke-width':2,opacity:'.8'}));}
+ if(state.abaya===5){g.append(el('path',{d:'M180 350 l3 5 6 .8-4.5 4 .8 6-5.3-2.8-5.3 2.8.8-6-4.5-4 6-.8z',fill:'#e5ce91',opacity:'.92'}));}
+ if(state.abaya===3){g.append(path('M120 262 Q134 257 145 264 M215 264 Q226 257 240 262','none',{stroke:'#e8cdb5','stroke-width':4,'stroke-linecap':'round'}));}
+ // subtle print overlay
+ if(state.abaya===1||state.abaya===4){g.append(path(styles[state.abaya],'url(#fabricDots)',{opacity:'.7'}));}
+ // hands above sleeves
+ g.append(el('ellipse',{cx:96,cy:367,rx:7,ry:10,fill:'#d9a28a',transform:'rotate(12 96 367)'}));g.append(el('ellipse',{cx:264,cy:367,rx:7,ry:10,fill:'#d9a28a',transform:'rotate(-12 264 367)'}));
+ // Hijab styles wrap from crown around cheek / chest; individual silhouette
+ const hijabShapes=[
+ 'M132 118 Q123 66 180 61 Q237 66 228 118 Q226 143 211 157 Q223 190 242 222 Q222 239 202 237 L180 192 L158 237 Q136 239 118 222 Q138 190 149 157 Q134 144 132 118Z',
+ 'M130 116 Q126 68 180 62 Q234 68 230 116 Q227 151 204 164 Q223 193 247 232 Q214 239 195 225 L180 188 L164 231 Q137 240 111 227 Q137 192 153 161 Q132 145 130 116Z',
+ 'M132 115 Q129 67 180 62 Q231 67 228 115 Q225 142 211 156 L233 219 Q210 231 194 228 L180 187 L162 229 Q140 233 120 218 L149 155 Q134 143 132 115Z',
+ 'M132 114 Q128 68 180 62 Q232 68 228 114 Q226 148 204 160 Q225 185 244 211 Q227 227 205 232 L180 190 L157 230 Q134 229 116 211 Q137 184 154 159 Q133 145 132 114Z',
+ 'M132 115 Q128 67 180 62 Q232 67 228 115 Q225 146 210 160 Q222 183 235 218 Q214 231 198 228 L180 186 L160 228 Q141 231 124 217 L151 158 Q135 144 132 115Z',
+ 'M130 115 Q127 68 180 61 Q233 68 230 115 Q227 146 209 159 Q228 189 246 218 Q220 233 199 231 L180 188 L161 231 Q138 233 114 218 Q137 188 153 157 Q132 144 130 115Z'
+ ];
+ if(state.hijab>=0){g.append(path(hijabShapes[state.hijab],'url(#veil)',{stroke:hij.dark,'stroke-width':1.4,'stroke-linejoin':'round'}));
+   // face framed with hijab: use face opening visual edge detail
+   g.append(path('M136 117 Q139 77 180 76 Q221 77 224 117','none',{stroke:hij.light,'stroke-width':2.2,'opacity':'.75'}));
+   g.append(path(state.hijab%2===0?'M151 159 Q180 178 209 158':'M151 160 Q180 174 209 160','none',{stroke:hij.dark,'stroke-width':1.3,'opacity':'.5'}));
+   if(state.hijab===5){g.append(el('circle',{cx:211,cy:161,r:4,fill:'#e7d49e',stroke:'#9a8250','stroke-width':1}));}
+ }
+ // Khimar cape layer
+ if(state.khimar>=0){const khimarShapes=[
+ 'M137 92 Q143 72 180 69 Q217 72 223 92 L249 255 Q228 287 207 320 L180 381 L153 320 Q132 287 111 255Z',
+ 'M135 91 Q146 69 180 68 Q214 69 225 91 L263 278 Q230 305 210 335 L180 384 L150 335 Q130 305 97 278Z',
+ 'M135 92 Q144 70 180 68 Q216 70 225 92 L260 350 Q233 389 210 419 L180 450 L150 419 Q127 389 100 350Z',
+ 'M136 90 Q146 69 180 68 Q214 69 224 90 L263 266 Q231 296 209 334 L180 398 L151 334 Q129 296 97 266Z',
+ 'M137 93 Q145 70 180 68 Q215 70 223 93 L253 300 Q231 328 211 356 L180 413 L149 356 Q129 328 107 300Z',
+ 'M137 91 Q146 69 180 67 Q214 69 223 91 L250 272 Q230 300 210 330 L180 391 L150 330 Q130 300 110 272Z'
+ ];
+ let khPath=path(khimarShapes[state.khimar],`url(#veil)`,{stroke:khi.dark,'stroke-width':1.5,'stroke-linejoin':'round'});khPath.style.setProperty('--veil',khi.hex);khPath.style.setProperty('--veil-light',khi.light);g.append(khPath);
+ // outline inner drape on cape
+ g.append(path(state.khimar>=2?'M149 105 Q151 210 180 367 Q209 210 211 105':'M150 103 Q151 205 180 345 Q209 205 210 103','none',{stroke:khi.light,'stroke-width':1.5,opacity:'.72'}));
+ }
+ // niqab overlays lower face, face showing eyes
+ g.append(el('ellipse',{cx:180,cy:126,rx:46,ry:58,fill:'url(#skin)'}));g.append(path('M157 128 Q164 124 170 128 M190 128 Q197 124 203 128','none',{stroke:'#54443d','stroke-width':2,'stroke-linecap':'round'}));g.append(el('circle',{cx:164,cy:129,r:1.8,fill:'#403b36'}));g.append(el('circle',{cx:197,cy:129,r:1.8,fill:'#403b36'}));g.append(path('M180 133 Q176 145 181 146','none',{stroke:'#b47c68','stroke-width':1.5,'stroke-linecap':'round'}));g.append(path('M172 156 Q180 161 188 155','none',{stroke:'#a96665','stroke-width':1.8,'stroke-linecap':'round'}));g.append(el('ellipse',{cx:148,cy:147,rx:8,ry:4,fill:'#d8897d',opacity:'.3'}));g.append(el('ellipse',{cx:211,cy:147,rx:8,ry:4,fill:'#d8897d',opacity:'.3'}));
+ if(state.niqab>=0){const veilY=state.niqab===2?156:151;
+   g.append(path(`M135 ${veilY} Q159 ${veilY+5} 180 ${veilY+1} Q202 ${veilY+5} 225 ${veilY} L231 190 Q212 202 180 201 Q148 202 129 190Z`,ni.hex,{stroke:ni.dark,'stroke-width':1.3}));
+   g.append(path(`M135 ${veilY+3} Q180 ${veilY+11} 225 ${veilY+3}`,'none',{stroke:ni.light,'stroke-width':1.5,opacity:'.8'}));
+   if(state.niqab===1||state.niqab===4){g.append(path(`M145 ${veilY+10} Q180 ${veilY+15} 215 ${veilY+10} L220 240 Q180 253 140 240Z`,ni.hex,{stroke:ni.dark,'stroke-width':1}));}
+ }
+ // delicate jewelry / hijab pin
+ if(state.hijab>=0&&state.hijab!==5){g.append(el('circle',{cx:state.hijab%2?213:147,cy:state.hijab%2?161:161,r:2.5,fill:'#e8d49f'}));}
+}
+function miniArt(cat,index){const c=colorFor(cat);let icon='';if(cat==='abaya')icon='<path d="M12 9 16 6l4 2 3 4-2 2-2-2v12H9V12l-2 2-2-2 4-6z"/>';if(cat==='hijab')icon='<path d="M7 12a5 5 0 0 1 10 0c0 3 2 5 4 8H4c2-3 3-5 3-8z"/><path d="M8 12q4 4 9 0"/>';if(cat==='khimar')icon='<path d="M8 9q4-6 8 0l6 14H2z"/><path d="M8 10l4 11 4-11"/>';if(cat==='cap')icon='<path d="M5 15a7 7 0 0 1 14 0v3H5z"/><path d="M5 15h14"/>';if(cat==='niqab')icon='<path d="M5 10q7-7 14 0l2 11H3z"/><path d="M6 13h12"/>';return `<svg viewBox="0 0 26 26" fill="${index%2?'none':c.hex}" stroke="${c.dark}" stroke-width="1.15" stroke-linejoin="round" stroke-linecap="round">${icon}</svg>`}
+function renderTabs(){const root=document.getElementById('categoryTabs');root.innerHTML='';for(const c of categories){let b=document.createElement('button');b.className='category-tab'+(activeCategory===c.id?' active':'');b.setAttribute('role','tab');b.setAttribute('aria-selected',activeCategory===c.id);b.innerHTML=`<span>${c.icon}</span><span>${c.label}</span>`;b.onclick=()=>{activeCategory=c.id;renderPanel()};root.append(b)}}
+function renderPanel(){renderTabs();const cat=categories.find(c=>c.id===activeCategory);document.getElementById('sectionName').textContent=cat.label;document.getElementById('itemCount').textContent=cat.items.length+' styles';const grid=document.getElementById('itemGrid');grid.innerHTML='';cat.items.forEach(([name,index])=>{const b=document.createElement('button');b.className='item-card'+(state[cat.id]===index?' selected':'');b.setAttribute('aria-pressed',state[cat.id]===index);b.innerHTML=`<span class="check">✓</span><span class="item-art">${miniArt(cat.id,index)}</span><span class="item-name">${name}</span>`;b.onclick=()=>{state[cat.id]=index;renderPanel();renderDoll();updateLook()};grid.append(b)});
+ const sw=document.getElementById('swatches');sw.innerHTML='';colors.forEach((c,i)=>{const b=document.createElement('button');b.className='swatch'+(state.colors[cat.id]===i?' active':'');b.style.background=c.hex;b.title=c.name;b.setAttribute('aria-label',c.name);b.setAttribute('aria-pressed',state.colors[cat.id]===i);b.onclick=()=>{state.colors[cat.id]=i;renderPanel();renderDoll();document.getElementById('colorName').textContent=c.name};sw.append(b)});document.getElementById('colorName').textContent=colors[state.colors[cat.id]].name;
+}
+function updateLook(){let active=categories.map(c=>state[c.id]>=0?c.items[state[c.id]][0]:null).filter(Boolean);let name=active.length?active.slice(0,2).join(' & '):'A quiet moment';document.getElementById('outfitName').textContent=name;document.getElementById('lookCounter').innerHTML='LOOK 01&nbsp; · &nbsp;'+name.toUpperCase()}
+function say(message){const t=document.getElementById('toast');t.textContent=message;t.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),2200)}
+function renderAll(){renderPanel();renderDoll();updateLook()}
+function randomize(){for(const c of categories){state[c.id]=Math.random()<.3?-1:Math.floor(Math.random()*6);state.colors[c.id]=Math.floor(Math.random()*colors.length)}activeCategory=categories[Math.floor(Math.random()*categories.length)].id;renderAll();say('A fresh look, just for you ✧')}
+document.getElementById('randomBtn').addEventListener('click',randomize);
+document.getElementById('resetBtn').addEventListener('click',()=>{state=structuredClone(defaultState);activeCategory='abaya';renderAll();say('A fresh canvas awaits')});
+document.getElementById('saveBtn').addEventListener('click',()=>{let looks=JSON.parse(localStorage.getItem('noorLooks')||'[]');let name=categories.map(c=>state[c.id]>=0?c.items[state[c.id]][0]:null).filter(Boolean).slice(0,2).join(' & ')||'A quiet moment';looks.unshift({name,state:JSON.parse(JSON.stringify(state)),date:new Date().toLocaleDateString(undefined,{month:'short',day:'numeric'})});localStorage.setItem('noorLooks',JSON.stringify(looks.slice(0,30)));say('Look saved to your lookbook ♡');document.getElementById('lookCounter').innerHTML='LOOKBOOK&nbsp; · &nbsp;'+name.toUpperCase()});
+function openLookbook(){const looks=JSON.parse(localStorage.getItem('noorLooks')||'[]');const list=document.getElementById('savedList');list.innerHTML='';if(!looks.length)list.innerHTML='<div class="empty-note">Your saved looks will be waiting here.<br>Make something lovely and tap “Save look” ♡</div>';looks.forEach(look=>{const row=document.createElement('div');row.className='saved-look';const info=document.createElement('div');info.innerHTML=`<strong>${look.name}</strong><small>Saved ${look.date}</small>`;const load=document.createElement('button');load.textContent='Wear this';load.onclick=()=>{state=look.state;activeCategory='abaya';renderAll();document.getElementById('lookbookModal').classList.remove('open');say('Look loaded ✧')};row.append(info,load);list.append(row)});document.getElementById('lookbookModal').classList.add('open')}
+document.getElementById('lookbookBtn').addEventListener('click',openLookbook);document.getElementById('closeModal').addEventListener('click',()=>document.getElementById('lookbookModal').classList.remove('open'));document.getElementById('lookbookModal').addEventListener('click',e=>{if(e.target.id==='lookbookModal')e.currentTarget.classList.remove('open')});
+renderAll();
+</script>
+</body>
+</html>
